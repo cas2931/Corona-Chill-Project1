@@ -2,7 +2,7 @@ Corona & Chill
 
 USER STORY 
 
-AS A 
+AS A quarantined consumer with a discerning taste in movies and media
 
 I WANT to receive movie recommendations based upon my tastes and interests via criteria set by myself
 
