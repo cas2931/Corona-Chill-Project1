@@ -1,7 +1,13 @@
-Cornona & Chill User Story  
+Corona & Chill 
 
-AS A  
+USER STORY 
 
-I WANT  
+AS A 
 
-SO
+I WANT to receive movie recommendations based upon my tastes and interests via criteria set by myself
+
+SO that I may binge watch my way through a potential apocalypse.
+
+ACCEPTANCE CRITERIA
+
+
