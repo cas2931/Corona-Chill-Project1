@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- link of css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Corona and Chill</title>
+  </head>
+  <body>
+    <div class="w3-bar w3-red">
+      <span class="branding w3-bar-itemw3-mobile">CORONA AND CHILL</span>
+          <span class="w3-right w3-mobile">
+              <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="index.html">Home</a>
+              <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="movie.html">Movies</a>
+              <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="aboutusgb.html">About</a>
+          </span>
+  </div>
+    <div class="container">
+      <h1 class="header">Corona and Chill</h1>
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Search a movie..."
+          />
+        </div>
+
+        <button type="submit" class="btn" id="search">
+          Search a movie
+        </button>
+      </form>
+
+      <div id="movies-searchable"></div>
+      <div id="movies-container"></div>
+    </div>
+
+    <br> 
+    
+    <div id="copy_right">
+      <p id="title">Corona and Chill &copy; 2020</p>
+    </div>
+
+<!-- link of apiTransaction.js -->
+    <script src="./assets/js/apiTransaction.js"></script>
+
+    <!-- link of app.js -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

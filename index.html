@@ -1,0 +1,105 @@
+<!Doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Movie App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../lib/w3-theme-black.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<title>C&C</title>
+<style>
+body,h1 {font-family: "Montserrat", sans-serif;font-weight:bold}
+img {margin-bottom:-7px;}
+.w3-row-padding img {margin-bottom:12px}
+</style>
+<body>
+
+<!-- Sidenav -->
+<div class="w3-bar w3-black">
+    <span class="branding w3-bar-itemw3-mobile">CORONA AND CHILL</span>
+        <span class="w3-right w3-mobile">
+            <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="index.html">Home</a>
+            <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="movie.html">Movies</a>
+            <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="aboutusgb.html">About</a>
+        </span>
+</div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<div class="w3-container w3-padding-jumbo w3-center w3-opacity w3-margin-bottom">
+  <span class="w3-opennav w3-xxlarge w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+  <div class="w3-clear"></div>
+  <h1>Corona and Chill</h1>
+  <p class="w3-padding-16"><button class="w3-btn" onclick="myFunction()">Toggle Grid Padding</button></p>
+</div>
+<!-- Photo Grid -->
+<div id="myGrid">
+    <div class="w3-third">
+      <img src="images/corona.png" style="width:100%">
+      <img src="images/old.jpg" style="width:100%">
+      <img src="images/rona.jpg" style="width:100%">
+      <img src="img_rock.jpg" style="width:100%">
+      <img src="img_nature.jpg" style="width:100%">
+      <img src="img_mist.jpg" style="width:100%">
+    </div>
+  
+    <div class="w3-third">
+      <img src="images/doctor.jpg" style="width:100%">
+      <img src="images/virus.jpg" style="width:100%">
+      <img src="images/sky.jp" style="width:100%">
+      <img src="images/glasses.jpg" style="width:100%">
+      <img src="img_rocks.jpg" style="width:100%">
+      <img src="img_avatar_g.jpg" style="width:100%">
+    </div>
+  
+    <div class="w3-third">
+      <img src="images/empty.jpg" style="width:100%">
+      <img src="images/one.jpg" style="width:100%">
+      <img src="img_gondol.jpg" style="width:100%">
+      <img src="img_skies.jpg" style="width:100%">
+      <img src="img_lights.jpg" style="width:100%">
+      <img src="img_workshop.jpg" style="width:100%">
+    </div>
+    </div>
+  </div>
+  <!-- Clear floats -->
+<div class="w3-clear"></div><br><br>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-margin-top w3-opacity"> 
+ <div class="w3-xlarge w3-padding-32">
+   <a href="#" class="w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
+   <a href="#" class="w3-hover-text-red w3-show-inline-block"><i class="fa fa-pinterest-p"></i></a>
+   <a href="#" class="w3-hover-text-light-blue w3-show-inline-block"><i class="fa fa-twitter"></i></a>
+   <a href="#" class="w3-hover-text-grey w3-show-inline-block"><i class="fa fa-flickr"></i></a>
+   <a href="#" class="w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-linkedin"></i></a>
+ </div>
+  <p style="font-weight:normal">Powered by <a href="default.html" target="_blank">w3.css</a></p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className.indexOf("w3-row-padding") == -1) {
+        x.className += " w3-row-padding";
+    } else { 
+        x.className = x.className.replace(" w3-row-padding", "");
+    }
+}
+
+// Open and close sidenav
+function w3_open() {
+    document.getElementsByClassName("w3-sidenav")[0].style.width = "100%";
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+}
+
+function w3_close() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+}
+</script>
+
+</body>
+</html>
