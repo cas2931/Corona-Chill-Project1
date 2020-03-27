@@ -2,7 +2,10 @@
     font-size:17px;
 }
 .showcase{
-    background:url('images/tv.jpg');
+ 
+}
+.team{
+    background:url('images/sky.jpg');
     background-position: center;
     width: 100vw;
     height: 100vh;
