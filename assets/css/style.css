@@ -33,7 +33,8 @@ section {
 }
 
 section .imageContainer {
-    flex: 0 0 auto;
+    flex: 0 0 auto; 
+    width: 10%;
 }
 
 .content {
