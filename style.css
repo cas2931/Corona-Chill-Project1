@@ -1,10 +1,17 @@
 .branding{
     font-size:17px;
 }
-.showcase{
-    background:url('images/tv.jpg');
+.team{
+    background:url('images/nurse.jpg');
     background-position: center;
     width: 100vw;
     height: 100vh;
     background-size: cover;
+}
+h3{
+    color:white;
+
+}
+#myPage{
+    background-color:rgba(255, 0, 0, 0.89);
 }
